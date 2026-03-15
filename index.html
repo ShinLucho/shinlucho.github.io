@@ -1,69 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>ShinLucho</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="pagina.css" />
 
-  <title>ShinLucho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <link rel="stylesheet" href="pagina.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <body>
+    <canvas id="matrix"></canvas>
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600&display=swap"
-    rel="stylesheet">
+    <div class="scanline"></div>
 
-</head>
+    <div class="container">
+      <div class="profile">
+        <img src="./avatar.png" class="avatar" />
 
-<body>
+        <h1 class="name">ShinLucho</h1>
 
-  <canvas id="matrix"></canvas>
+        <p class="tag">VTuber • Developer • Aspirante a Heroe</p>
+      </div>
 
-  <div class="scanline"></div>
+      <div class="links">
+        <a class="link" href="https://www.twitch.tv/shinlucho" target="_blank">
+          <i id="icon-twitch" class="hgi hgi-stroke hgi-twitch"></i> Twitch
+        </a>
 
-  <div class="container">
+        <a class="link" href="https://x.com/ShinLucho" target="_blank">
+          <i class="hgi hgi-stroke hgi-new-twitter"></i> X / Twitter
+        </a>
 
-    <div class="profile">
-
-      <img src="./avatar.png" class="avatar">
-
-      <h1 class="name">ShinLucho</h1>
-
-      <p class="tag">
-        VTuber • Developer • Aspirante a Heroe
-      </p>
-
+        <a class="link" href="https://github.com/ShinLucho" target="_blank">
+          <i class="hgi hgi-stroke hgi-github"></i> GitHub
+        </a>
+      </div>
     </div>
 
+    <footer>• ULTIMATE VTUBER PORTAL •</footer>
 
-    <div class="links">
-
-      <a class="link" href="https://www.twitch.tv/shinlucho" target="_blank">
-        <span>🎮</span> Twitch
-      </a>
-
-      <a class="link" href="https://x.com/ShinLucho" target="_blank">
-        <span>🐦</span> X / Twitter
-      </a>
-
-      <a class="link" href="https://github.com/ShinLucho" target="_blank">
-        <span>💻</span> GitHub
-      </a>
-
-    </div>
-
-  </div>
-
-  <footer>
-    • ULTIMATE VTUBER PORTAL •
-  </footer>
-
-  <script src="matrix.js"></script>
-
-</body>
-
+    <script src="matrix.js"></script>
+  </body>
 </html>
